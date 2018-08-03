@@ -59,7 +59,7 @@ for i, k in enumerate(keywords):
 
 # 奇异值分解
 U,sigma,V = linalg.svd(X, full_matrices=True)
-   
+
 print("U:\n", U, "\n")
 print("SIGMA:\n", sigma, "\n")
 print("V:\n", V, "\n")
@@ -100,4 +100,4 @@ y = V[1]
 pylab.plot(x, y, 'x')
 
 
-pylab.savefig("D:/1.png", dpi=100)
+pylab.savefig("./1.png", dpi=100)
